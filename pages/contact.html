@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale-1.0">
+    <title>Welcome to CSS</title>
+<link rel="stylesheet" href="../all_css/style.css">
+
+</head>
+<body class="contact-us">
+
+<h1 style="color: red;">This is our Contact Page</h1>
+   
+<h4>Kindly sign up for our Newsletter</h4>
+<form action="mailto: samueladetunji001@gmail.com" method="post"
+enctype="text/plain">
+
+<form id="myForm" onsubmit="showSuccess(); return false;">
+    
+    <label for="firstname">Name</label>
+    <input type="text" name="firstname" size="40px" placeholder="Surname First" > <br><br>
+    <label for="email">Email</label>
+    <input type="text" name="email" size="40px" placeholder="Please input your email" > <br><br>
+    <label for="password">Phone Number</label>
+    <input type="text" placeholder="Please input your phone number" size="40px"> <br> <br>
+    <label for="myradio">Gender</label> <br>
+    <input type="radio" name="myradio" value="male"> Male <br>
+    <input type="radio" name="myradio" value="female"> Female <br>
+    <input type="radio" name="myradio" value="Rather Not Say"> Rather Not Say <br><br>
+ 
+    <label for="my checkox">Do you want to sign up for my email list?</label> <br>
+    <input type="checkbox" name="mycheckbox" value="Yes"> Yes <br> <br>
+
+    <select name="Cars" id>
+    <option value="Audi" name="Audi">Audi</option>
+    <option value="Bently" name="Bently">Bently</option>
+    <option value="Rolls-Royce" name="Rolls-Royce">Rolls-Royce</option>
+    <option value="Toyota" name="Toyota">Toyota</option>
+    </select> <br>
+
+ 
+    <textarea name="leave a message" id="" cols="30" rows="10" placeholder="leave me a message here"></textarea> <br>
+ 
+    
+    <input type="submit" value="Submit Form"> <br><br>
+
+    <a href="../index.html">Go Back to Home</a>
+
+</form>
+
+</body>
+</html>
